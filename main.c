@@ -2,7 +2,7 @@
 
 void run_test(void) __attribute__((weak));
 int main() {
-    printf("Hello CI/CD with GitHub Actions!\n");
+    printf("Hello CI/CD with GitHub Actions - feature test!\n");
     if (run_test) {
         run_test();
     }
